@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    .features{
+        text-align: center;
+        .features_first{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 1.08px;
+            text-transform: uppercase;
+            color: #FF5634;
+        }
+        h1{
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 54px;
+            text-align: center;
+            color: #121212;
+        }
+        .features_second{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 30px;
+            text-align: center;
+            color: #656565;
+        }
+        .end{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+            color: #656565;
+            margin-left: 500px;
+        }
+        ul{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li{
+                width: 350px;
+                margin-top: 70px;
+                h2{
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 40px;
+                    text-align: center;
+                    color: #121212;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #656565;
+                }
+            }
+        }
+
+    }
+}
+
+.btn{
+    background-color: #fff;
+    border: 1px solid ;
+    padding: 26px 35px;
+    box-shadow: 0 0 10px #ff5634;
+    &:hover{
+        background-color: #ff5634;
+        
+    }
+    &:active{
+        background-color: #ff563400;
+    }
+}
+
+.red_btn{
+    box-shadow: 0 0 10px #ff5634;
+    color: #fff;
+    background-color: #FF5634;
+    padding: 26px 35px;
+    &:hover{
+        background-color: #ff5634d2;
+
+    }
+    &:active{
+        background-color: #ff563400;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// \________________/
+//  _/__|_______|__\_
+// /⭕️⭕️_______⭕️⭕️\
+// |__/__GTR-R34__\__|
+// \©©__|_|_|_|_|__©©/
